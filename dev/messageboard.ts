@@ -15,9 +15,6 @@ class MessageBoard extends HTMLElement{
 
         let game = document.getElementsByTagName("game")[0]
         game.appendChild(this)
-
-        this.style.right = "10px"
-        this.style.top   = "10px"
     }
 
     public showMessage() {
